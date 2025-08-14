@@ -7,7 +7,7 @@ A versatile **Python script** that parses **Trivy-generated Kubernetes security 
 
 This tool supports both `VulnerabilityReport` and `ConfigAuditReport` kinds, automatically detecting the report type and generating the appropriate output.
 
-![alt text](image.png)
+
 
 ---
 
@@ -63,11 +63,16 @@ pip install -r requirements.txt
 python universal_report_generator.py path/to/your/report.yaml
 ````
 
+<img width="2482" height="1462" alt="image" src="https://github.com/user-attachments/assets/c651ed4e-ed80-4004-b607-78046b7f991d" />
+
 #### Process multiple YAML files:
 
 ````python
 python universal_report_generator.py report1.yaml report2.yaml
 ````
+
+<img width="1936" height="396" alt="image" src="https://github.com/user-attachments/assets/182fcd92-3aba-4b1d-ab19-0a05670abf96" />
+
 ---
 
 ## Export Options
@@ -125,7 +130,6 @@ This project is licensed under the MIT License — see the LICENSE.md file for d
 =======
 # yaml-to-html-report-generator
 The aim of this script is to convert the kubernates yaml reports to html
->>>>>>> 5304253f37074711ecd1eb6ea80a0c929643fdc1
 
 A versatile **Python script** that parses **Trivy-generated Kubernetes security reports** in YAML format and converts them into **user-friendly**, **interactive HTML**, **professional PDF**, and **structured Excel (.xlsx)** files.
 
